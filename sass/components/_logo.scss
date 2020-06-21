@@ -1,0 +1,16 @@
+.logo-color {
+  display: block;
+  margin-top: 24px;
+  margin-bottom: 25px;
+}
+.logo {
+  @extend %logo;
+
+  &:hover,
+  &:focus {
+    color: $color-link;
+  }
+  & .logo-title {
+    color: $color-link;
+  }
+}

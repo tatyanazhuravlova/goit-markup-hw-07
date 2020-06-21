@@ -1,0 +1,16 @@
+.copyright {
+  text-align: center;
+}
+.author {
+  display: inline-block;
+  padding-top: 18px;
+  padding-bottom: 21px;
+  color: $text-autor;
+  font-size: 12px;
+  line-height: 2;
+
+  &:hover,
+  &:focus {
+    color: $color-link;
+  }
+}

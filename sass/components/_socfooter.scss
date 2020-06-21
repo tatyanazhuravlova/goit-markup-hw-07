@@ -1,0 +1,31 @@
+.socfooter {
+  margin-left: 69px;
+}
+.social-but {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 21px;
+  align-items: center;
+}
+
+.social-but .item {
+  display: inline-block;
+  margin-right: 10px;
+  justify-content: space-between;
+}
+.socials-footer {
+  @extend %socials;
+  background-color: $socials-footer;
+  fill: $hero-text;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.socials-footer:hover {
+  background-color: $color-link;
+}
+
+.socials-title {
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}

@@ -1,0 +1,36 @@
+.page {
+  color: $primary-text-color;
+  background-color: $hero-text;
+  font-family: $font-Roboto;
+  letter-spacing: 0.03em;
+}
+header {
+  background-color: $hero-text;
+}
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+nav {
+  color: $primary-text-color;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: $hero-text;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
